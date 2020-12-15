@@ -5,7 +5,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#DDFAE5E5"
+    android:background="@drawable/pngtree_pink_watercolor_background_texture_391132"
+
     tools:context=".MainActivity">
 
 
@@ -62,7 +63,7 @@
         android:layout_marginTop="52dp"
 
         android:background="@color/purple_200"
-        android:backgroundTint="#E19191"
+        android:backgroundTint="#AC4545"
         android:text="Create Account"
         app:layout_constraintEnd_toEndOf="@+id/password_editText_register"
         app:layout_constraintHorizontal_bias="0.0"
@@ -72,10 +73,10 @@
     <TextView
         android:id="@+id/already_have_account_textView_register"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="30dp"
         android:layout_marginTop="24dp"
         android:text="Already have an account? Sign In"
-        android:textColor="#B65454"
+        android:textColor="#500606"
         app:layout_constraintEnd_toEndOf="@+id/register_button_register"
         app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="@+id/register_button_register"

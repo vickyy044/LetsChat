@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#DDFAE5E5"
+    android:background="@drawable/pngtree_pink_watercolor_background_texture_391132"
     tools:context=".LoginActivity">
 
     <EditText
@@ -42,6 +42,7 @@
         android:layout_height="54dp"
         android:layout_marginTop="56dp"
         android:background="@drawable/rounded_corner"
+        android:backgroundTint="#AC4545"
         android:text="Login"
         app:layout_constraintEnd_toEndOf="@+id/password_editText_login"
         app:layout_constraintHorizontal_bias="0.0"
