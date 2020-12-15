@@ -11,9 +11,10 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
+        supportActionBar?.hide()        // remove actionBar from register activity
         val email = email_editText_register.text.toString()
         val password = password_editText_register.text.toString()
+
 
         val registerButton = register_button_register
         registerButton.setOnClickListener {

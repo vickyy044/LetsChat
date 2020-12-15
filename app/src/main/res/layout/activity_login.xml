@@ -4,8 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/pngtree_pink_watercolor_background_texture_391132"
+    android:background="@drawable/asset"
     tools:context=".LoginActivity">
+
+
 
     <EditText
         android:id="@+id/email_editText_login"
