@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.EditText
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.ktx.Firebase
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -22,6 +24,7 @@ class MainActivity : AppCompatActivity() {
             Log.d("MainActivity","Password is : $password")
         }
 
+        FirebaseAuth.getInstance()
         already_have_account_textView_register.setOnClickListener {
             Log.d("MainActivity" , "Go to login activity")
             val intent = Intent(this,LoginActivity::class.java)
